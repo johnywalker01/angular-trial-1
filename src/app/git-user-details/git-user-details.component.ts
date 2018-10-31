@@ -30,17 +30,18 @@ export class GitUserDetailsComponent implements OnInit {
   }
 
   retrieveUserDetails(userId: string) {
-    this._gitUserService.getGitUserDetails(userId).subscribe(
-      data => {
-        this.gitUser = data;
-      }, error => {
-        this.errMessage = <any>error;
-        console.log("value ", error);
-        if (error.includes("404 Not Found")) {
-          alert("Invalid user Id");
-          this.onBack();
-        }
-      });
+    this._gitUserService.getGitUserDetails(userId)
+      .subscribe(
+        data => {
+          this.gitUser = data;
+        }, error => {
+          this.errMessage = <any>error;
+          console.log("value ", error);
+          if (error.includes("404 Not Found")) {
+            alert("Invalid user Id");
+            this.onBack();
+          }
+        });
   }
 
 }
