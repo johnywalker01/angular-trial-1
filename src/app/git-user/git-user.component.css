@@ -1,0 +1,12 @@
+.userLabelCard{
+    box-shadow: 5px 2px 5px grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.userLabelCard img{
+    width: 64px;
+}
+.userLabelCard label{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

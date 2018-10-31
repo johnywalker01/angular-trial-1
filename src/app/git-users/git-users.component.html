@@ -1,0 +1,6 @@
+<!-- <div *ngIf='gitUsers && gitUsers.length'>
+  <app-git-user [user]='user' *ngFor='let user of gitUsers' class="userCardDiv"></app-git-user>
+</div> -->
+<div *ngIf='gitUsers && gitUsers.length' class="gitUserContainer">
+  <app-git-user [user]='user' *ngFor='let user of gitUsers' class="grid-item"></app-git-user>
+</div>

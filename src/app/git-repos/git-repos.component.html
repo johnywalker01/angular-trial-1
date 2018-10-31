@@ -1,0 +1,10 @@
+<div *ngIf='gitRepos && gitRepos.length' class="gridContainer">
+  <div *ngFor='let repo of gitRepos' class="gridItem">
+    <label class="c3x">{{repo.name | uppercase}}
+      <span class="tooltip">
+        <img class="tooltipimg" [alt]="repo.owner.login" [src]='repo.owner.avatar_url'>
+        {{repo.owner.login}}</span>
+    </label>
+    <label class="c4x">{{repo.description}}</label>
+  </div>
+</div>

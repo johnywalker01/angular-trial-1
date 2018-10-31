@@ -1,0 +1,41 @@
+.headz1{
+    text-align:left;
+    /*border: 1px solid red;*/
+    display:flex;
+}
+.headz1 h1 {
+  /*padding-top: 10px;*/
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Change the link color to blue-ish, on hover */
+li a:hover {
+  background-color: rgb(53, 121, 199);
+}
+
+.routingContainer{
+  padding: 10px;
+  display: flex;
+}

@@ -1,0 +1,4 @@
+<div class="userLabelCard">
+  <img [src]='user.avatar_url'>
+  <label><a [routerLink]="['/users',user.login]">{{user.login | uppercase}}</a></label>
+</div>

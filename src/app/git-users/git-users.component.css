@@ -1,0 +1,19 @@
+.userCardDiv {
+    float: left;
+}
+
+.gitUserContainer {
+    min-width: 1120px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.gitUserMainContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    padding: 2px 5px;
+}

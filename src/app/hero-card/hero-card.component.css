@@ -1,0 +1,29 @@
+.heroCard{
+    padding: 5px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    position: relative;
+    overflow: hidden;
+}
+.cardName{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.cardRatings{
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+}
+.cardRatingsLabel{
+    vertical-align:-6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

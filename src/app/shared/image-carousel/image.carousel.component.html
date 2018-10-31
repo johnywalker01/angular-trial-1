@@ -1,0 +1,5 @@
+<div class="crop" [style.width.px]='boxWidth' [style.height.px]='boxWidth' *ngIf='images' [@openClose]="{value: (isOpen ? 'open' : 'closed'), params: {newColor: dynoColor}}"  >
+  <div class="grid-main" >
+    <img class="grid-image" [alt]="image.id" [src]='image.imageUrl' [id]="'image-'+image.id" class="grid-item" [style.width.px]="imgWidth" *ngFor='let image of images' >
+  </div>
+</div>

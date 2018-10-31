@@ -1,0 +1,125 @@
+.gridContainer {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.gridItem {
+  background-color: lightgreen;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 1401px) {
+  .gridContainer {
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .gridItem {
+    background-color: lightyellow;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .gridContainer {
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto;
+  }
+
+  .gridItem {
+    background-color: lightgreen;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .gridContainer {
+    grid-gap: 5px;
+    grid-template-columns: auto auto;
+  }
+
+  .gridItem {
+    background-color: bisque;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gridContainer {
+    grid-gap: 5px;
+    grid-template-columns: auto;
+  }
+
+  .gridItem {
+    background-color: aliceblue;
+    border-radius: 2px;
+    padding: 3px;
+  }
+}
+
+.c3x {
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: rgba(50, 50, 50, 0.5);
+  padding: 3px;
+  color: white;
+
+  /* - for tooltip - */
+  position: relative;
+}
+
+.c3x .tooltip {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 6px;
+  padding: 3px 5px;
+  top: -51px;
+  left: 0px;
+
+  width:150px;
+  height: 40px;
+
+  font-size: 12px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+
+  opacity: 0;
+    transition: opacity .6s ease-in-out;
+}
+
+.tooltip .tooltipimg {
+  width: 32px;
+  height: auto;
+  padding-right: 5px;
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.c3x:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.c4x {
+  display: block;
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

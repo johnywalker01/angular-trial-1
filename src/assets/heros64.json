@@ -1,0 +1,62 @@
+[
+    {
+        "id": 11,
+        "name": "Bob",
+        "starRating": 4.2,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-44-64.png"
+    },
+    {
+        "id": 12,
+        "name": "BatMan",
+        "starRating": 4.1,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-26-64.png"
+    },
+    {
+        "id": 13,
+        "name": "Groot",
+        "starRating": 4.3,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-25-64.png"
+    },
+    {
+        "id": 14,
+        "name": "CaptainAmerica",
+        "starRating": 4.2,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-01-64.png"
+    },
+    {
+        "id": 15,
+        "name": "Mutant",
+        "starRating": 3.7,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-11-64.png"
+    },
+    {
+        "id": 16,
+        "name": "IronMan",
+        "starRating": 3.9,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-10-64.png"
+    },
+    {
+        "id": 17,
+        "name": "SuperSonic",
+        "starRating": 3.6,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-14-64.png"
+    },
+    {
+        "id": 18,
+        "name": "Stuart",
+        "starRating": 4.1,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-45-64.png"
+    },
+    {
+        "id": 19,
+        "name": "Thor",
+        "starRating": 4.5,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-24-64.png"
+    },
+    {
+        "id": 20,
+        "name": "C3Po",
+        "starRating": 3.4,
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/famous-characters-add-on-vol-2-glyph/48/Sed-28-64.png"
+    }
+]
