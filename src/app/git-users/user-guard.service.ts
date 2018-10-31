@@ -8,7 +8,7 @@ export class UserGuardService implements CanActivate {
     let loginId = route.url[1].path;
     // console.log("logId "+loginId);
 
-    if (loginId.length<4) {
+    if (loginId.length < 4) {
       alert("Invalid user Id");
       this._router.navigate(['/users']);
       return false;

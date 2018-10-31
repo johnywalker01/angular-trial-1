@@ -35,6 +35,11 @@ export class GitUserDetailsComponent implements OnInit {
         this.gitUser = data;
       }, error => {
         this.errMessage = <any>error;
+        console.log("value ", error);
+        if (error.includes("404 Not Found")) {
+          alert("Invalid user Id");
+          this.onBack();
+        }
       });
   }
 
